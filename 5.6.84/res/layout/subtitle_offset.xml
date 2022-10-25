@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="300.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:layout_gravity="center" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:text="@string/subtitle_offset_title" style="@style/WatchHeaderText" />
+    <TextView android:textColor="?grayTextColor" android:layout_gravity="center" android:id="@id/subtitle_offset_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/subtitle_offset_subtract" android:background="?android:selectableItemBackgroundBorderless" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/baseline_remove_24" android:layout_weight="1.0" app:tint="?white" />
+        <EditText android:id="@id/subtitle_offset_input" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/subtitle_offset_hint" android:layout_weight="20.0" android:inputType="numberSigned" />
+        <ImageView android:layout_gravity="center" android:id="@id/subtitle_offset_add" android:background="?android:selectableItemBackgroundBorderless" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_baseline_add_24" android:layout_weight="1.0" app:tint="?white" />
+    </LinearLayout>
+    <LinearLayout android:gravity="end|bottom|center" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <com.google.android.material.button.MaterialButton android:layout_gravity="end|center" android:id="@id/apply_btt" android:visibility="visible" android:layout_width="wrap_content" android:text="@string/sort_apply" style="@style/WhiteButton">
+            <requestFocus />
+        </com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton android:layout_gravity="end|center" android:id="@id/cancel_btt" android:layout_width="wrap_content" android:text="@string/sort_cancel" style="@style/BlackButton" />
+    </LinearLayout>
+</LinearLayout>

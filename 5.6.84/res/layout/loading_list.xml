@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/loading_margin" android:paddingBottom="@dimen/loading_margin" android:layout_width="fill_parent" android:layout_height="200.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/loading_line_short" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/loading_poster" />
+        <View android:layout_width="@dimen/loading_margin" android:layout_height="wrap_content" />
+        <include layout="@layout/loading_poster" />
+        <View android:layout_width="@dimen/loading_margin" android:layout_height="wrap_content" />
+        <include layout="@layout/loading_poster" />
+        <View android:layout_width="@dimen/loading_margin" android:layout_height="wrap_content" />
+        <include layout="@layout/loading_poster" />
+        <View android:layout_width="@dimen/loading_margin" android:layout_height="wrap_content" />
+        <include layout="@layout/loading_poster" />
+        <View android:layout_width="@dimen/loading_margin" android:layout_height="wrap_content" />
+        <include layout="@layout/loading_poster" />
+        <View android:layout_width="@dimen/loading_margin" android:layout_height="fill_parent" />
+        <include layout="@layout/loading_poster" />
+        <View android:layout_width="@dimen/loading_margin" android:layout_height="wrap_content" />
+        <include layout="@layout/loading_poster" />
+    </LinearLayout>
+</LinearLayout>

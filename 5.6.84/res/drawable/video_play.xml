@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:color="@color/video_ripple"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:height="70.0dip" android:width="70.0dip" android:drawable="@drawable/netflix_play" />
+</layer-list>

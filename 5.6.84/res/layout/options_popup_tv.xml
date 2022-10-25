@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView android:id="@id/background_card" android:layout_width="114.0dip" android:layout_height="180.0dip" android:layout_margin="2.0dip" android:layout_marginBottom="2.0dip" android:foreground="@drawable/outline_drawable" android:elevation="10.0dip" app:cardBackgroundColor="?primaryGrayBackground" app:cardCornerRadius="@dimen/rounded_image_radius" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <ImageView android:id="@id/imageView" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?android:selectableItemBackgroundBorderless" android:scaleType="centerCrop" android:contentDescription="@string/search_poster_img_des" />
+    </androidx.cardview.widget.CardView>
+    <ListView android:id="@id/listview1" android:nextFocusLeft="@id/apply_btt" android:nextFocusRight="@id/cancel_btt" android:nextFocusUp="@id/toggle1" android:nextFocusDown="@id/apply_btt" android:layout_width="fill_parent" android:layout_height="fill_parent" android:requiresFadingEdge="vertical" android:layout_rowWeight="1.0" />
+</LinearLayout>

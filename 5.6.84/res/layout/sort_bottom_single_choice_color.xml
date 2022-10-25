@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_selection_color" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@android:id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkMark="?android:listChoiceIndicatorSingle" android:foreground="?selectableItemBackgroundBorderless" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="12.0dip" android:paddingEnd="7.0dip" style="@style/AppTextViewStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

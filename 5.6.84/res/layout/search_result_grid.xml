@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/search_result_root" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/outline_drawable"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/background_card" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2.0dip" android:layout_marginBottom="2.0dip" android:elevation="10.0dip" app:cardBackgroundColor="?primaryGrayBackground" app:cardCornerRadius="@dimen/rounded_image_radius">
+        <ImageView android:id="@id/imageView" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?android:selectableItemBackgroundBorderless" android:scaleType="centerCrop" android:contentDescription="@string/search_poster_img_des" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/title_shadow" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="50.0dip" android:src="@drawable/title_shadow" />
+        <TextView android:textStyle="bold" android:textColor="@color/textColor" android:ellipsize="end" android:gravity="center" android:layout_gravity="bottom" android:id="@id/imageText" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+        <TextView android:textColor="@color/textColor" android:id="@id/text_quality" android:background="@drawable/type_bg_color" style="@style/SearchBox" />
+        <LinearLayout android:layout_gravity="end" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:layout_gravity="end" android:id="@id/text_is_dub" android:background="@drawable/dub_bg_color" android:text="@string/app_dubbed_text" style="@style/SearchBox" />
+            <TextView android:layout_gravity="end" android:id="@id/text_is_sub" android:background="@drawable/sub_bg_color" android:text="@string/app_subbed_text" style="@style/SearchBox" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

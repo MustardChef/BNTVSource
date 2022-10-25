@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/backgroundCard" android:layout_width="148.0dip" android:layout_height="234.0dip" android:layout_margin="2.0dip" android:layout_marginBottom="2.0dip" android:foreground="@drawable/outline_drawable" android:elevation="10.0dip" app:cardBackgroundColor="?primaryGrayBackground" app:cardCornerRadius="@dimen/rounded_image_radius"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageView" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?android:selectableItemBackgroundBorderless" android:scaleType="centerCrop" android:contentDescription="@string/search_poster_img_des" />
+    <TextView android:id="@id/text_quality" android:background="@drawable/type_bg_color" style="@style/SearchBox" />
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="70.0dip" android:paddingVertical="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/item_icon" android:layout_width="50.0dip" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/unicorn_ic_folder" android:layout_centerVertical="true" android:layout_alignParentStart="true" android:layout_marginHorizontal="10.0dip" android:layout_marginVertical="10.0dip" app:tint="?unicorn.file.iconTint" />
+    <RelativeLayout android:id="@id/rl_folder_details" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_toStartOf="@id/ic_open" android:layout_toEndOf="@id/item_icon">
+        <TextView android:textSize="16.0sp" android:textColor="?unicorn.file.heading" android:ellipsize="end" android:id="@id/tv_folder_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="12.0sp" android:textColor="?unicorn.file.subHeading" android:id="@id/tv_num_files" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tv_folder_name" />
+        <TextView android:textSize="12.0sp" android:textColor="?unicorn.file.subHeading" android:id="@id/tv_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tv_folder_name" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/tv_num_files" />
+    </RelativeLayout>
+    <ImageView android:id="@id/ic_open" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/unicorn_ic_arrow_right" android:layout_centerVertical="true" android:layout_alignParentEnd="true" android:paddingVertical="16.0dip" app:tint="?unicorn.file.arrowIconTint" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:screenOrientation="sensorLandscape" android:orientation="horizontal" android:id="@id/player_background" android:background="@android:color/black" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:keepScreenOn="true" app:backgroundTint="@android:color/black" app:surface_type="texture_view"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.exoplayer2.ui.PlayerView android:id="@id/player_view" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" app:auto_show="true" app:backgroundTint="@android:color/black" app:controller_layout_id="@layout/trailer_custom_layout" app:hide_on_touch="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:show_timeout="0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
